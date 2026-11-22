@@ -15,7 +15,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/YOUR-USERNAME/research-paper-finder?style=flat-square)
 ![Top Language](https://img.shields.io/github/languages/top/YOUR-USERNAME/research-paper-finder?style=flat-square)
 
-[Live Demo]([https://YOUR-LIVE-LINK](https://polite-grass-058b97700.5.azurestaticapps.net/)) · [Report a Bug](https://github.com/Phonkboisad/research-paper-finder/issues)
+[Live Demo](https://polite-grass-058b97700.5.azurestaticapps.net/) · [Report a Bug](https://github.com/Phonkboisad/research-paper-finder/issues)
 
 </div>
 
