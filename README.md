@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Research Paper Finder
+#  Research Paper Finder
 
 **Search, filter, and save real research papers using React and the OpenAlex API**
 
@@ -20,23 +20,22 @@
 </div>
 
 ---
-
-## 📖 About
+##  About
 
 Research Paper Finder is a simple web app built with **Vite + React**. It fetches real research papers from the free [OpenAlex API](https://openalex.org) and shows them as cards. You can filter papers by research domain, sort them, and save your favourites in the browser with `localStorage`.
 
-## ✨ Features
+##  Features
 
-- 🔍 **Search** papers by any research topic
-- 🧩 **React components** for the search bar, filters, and paper cards
-- ⏳ **Loading and error messages** while data is fetched
-- 🏷️ **Filter by research domain** (Computer Science, Medicine, Physics…)
-- 🔓 **Open access only** filter for free-to-read papers
-- ↕️ **Sort** by relevance, most cited, newest, or oldest
-- ⭐ **Save favourite papers** with `localStorage` (they stay after a page refresh)
-- 📱 **Responsive layout**: 1 column on mobile, 2 on tablet, 3 on desktop
+-  **Search** papers by any research topic
+-  **React components** for the search bar, filters, and paper cards
+-  **Loading and error messages** while data is fetched
+-  **Filter by research domain** (Computer Science, Medicine, Physics…)
+-  **Open access only** filter for free-to-read papers
+- ↕ **Sort** by relevance, most cited, newest, or oldest
+-  **Save favourite papers** with `localStorage` (they stay after a page refresh)
+-  **Responsive layout**: 1 column on mobile, 2 on tablet, 3 on desktop
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -46,7 +45,7 @@ Research Paper Finder is a simple web app built with **Vite + React**. It fetche
 | [OpenAlex API](https://developers.openalex.org) | Free research paper data |
 | `localStorage` | Saves favourite papers in the browser |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 research-paper-finder/
@@ -65,7 +64,7 @@ research-paper-finder/
 └── vite.config.js           # React + Tailwind plugins
 ```
 
-## 🔁 Reproducibility
+##  Reproducibility
 
 These are the versions used to build and test this project.
 
@@ -103,7 +102,7 @@ Then:
 - `vite.config.js` adds the `tailwindcss()` plugin
 - `src/index.css` contains `@import "tailwindcss";`
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -177,7 +176,7 @@ async function searchPapers() {
 - OpenAlex sends abstracts as an *inverted index* (`{ word: [positions] }`). The `getAbstract()` function rebuilds the normal text.
 - The research domain comes from `primary_topic.field.display_name`
 
-## 🧪 Testing Core Flows
+##  Testing Core Flows
 
 Manual test checklist:
 
@@ -192,7 +191,7 @@ Manual test checklist:
 | 7 | Refresh the page → "Show Saved" | Saved papers are still there |
 | 8 | Turn off Wi-Fi and search | Red error message |
 
-## 🐞 Debugging with Browser Tools
+##  Debugging with Browser Tools
 
 Open DevTools with **F12**:
 
@@ -201,7 +200,7 @@ Open DevTools with **F12**:
 - **Application → Local Storage**: see the `savedPapers` key and its saved data
 - **React Developer Tools** (browser extension): inspect components, props, and state
 
-## 📱 Responsive Design
+## Responsive Design
 
 | Screen | Layout |
 |---|---|
@@ -211,7 +210,7 @@ Open DevTools with **F12**:
 
 Test it in DevTools with the **device toolbar** (Ctrl + Shift + M).
 
-## ♿ Accessibility
+##  Accessibility
 
 - Semantic HTML: `<header>`, `<main>`, `<section>`, `<form>`, `<article>`
 - The search runs from a real `<form>`, so **Enter** works and every control is keyboard accessible
@@ -220,7 +219,7 @@ Test it in DevTools with the **device toolbar** (Ctrl + Shift + M).
 - External links open in a new tab with `rel="noopener"`
 - Checked with **Lighthouse** (DevTools → Lighthouse → Accessibility)
 
-## 🌐 Deployment
+##  Deployment
 
 This project can be deployed for free on **Vercel**:
 
@@ -232,10 +231,10 @@ This project can be deployed for free on **Vercel**:
 
 > Note: Vite puts `VITE_` variables into the browser code, so the key can be seen by visitors. That's fine for a free OpenAlex key, but never use this method for secret or paid keys.
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - Paper data from [OpenAlex](https://openalex.org) (CC0 licensed)
-- Badges from [Shields.io](https://shields.io)
+
 
 <div align="center">
 
