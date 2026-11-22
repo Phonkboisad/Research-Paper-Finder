@@ -107,7 +107,7 @@ Then:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/research-paper-finder.git
+git clone https://github.com/Phonkboisad/research-paper-finder.git
 cd research-paper-finder
 ```
 
