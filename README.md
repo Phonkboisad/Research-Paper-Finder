@@ -11,9 +11,9 @@
 ![Node.js](https://img.shields.io/badge/Node.js-20.19+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![OpenAlex API](https://img.shields.io/badge/API-OpenAlex-E4572E?style=for-the-badge)
 
-![Last Commit](https://img.shields.io/github/last-commit/YOUR-USERNAME/research-paper-finder?style=flat-square)
-![Repo Size](https://img.shields.io/github/repo-size/YOUR-USERNAME/research-paper-finder?style=flat-square)
-![Top Language](https://img.shields.io/github/languages/top/YOUR-USERNAME/research-paper-finder?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/Phoknboisad/research-paper-finder?style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/Phonkboisad/research-paper-finder?style=flat-square)
+![Top Language](https://img.shields.io/github/languages/top/Phonkboisad/research-paper-finder?style=flat-square)
 
 [Live Demo](https://polite-grass-058b97700.5.azurestaticapps.net/) · [Report a Bug](https://github.com/Phonkboisad/research-paper-finder/issues)
 
